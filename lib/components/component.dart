@@ -1,6 +1,6 @@
 import 'package:conditional_builder/conditional_builder.dart';
 import 'package:flutter/material.dart';
-//import 'package:hmnews/Modules/web_view/webview_screen.dart';
+import 'package:hmnews/Modules/web_view/webview_screen.dart';
 
 Widget myDivider() => Padding(
       padding: const EdgeInsetsDirectional.only(
@@ -14,7 +14,7 @@ Widget myDivider() => Padding(
     );
 Widget buildArticleItems(artcl, context) => InkWell(
   onTap: (){
-    //navgate(context, webviewscreen(artcl['url']),);
+    navgate(context, webviewscreen(artcl['url']),);
   },
   child:   Padding(
 
